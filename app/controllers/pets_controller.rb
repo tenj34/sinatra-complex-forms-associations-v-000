@@ -39,6 +39,7 @@ end
       @owner.pets << @pet
     end
 
-    redirect to "pets/#{@pet.id}"
+  redirect to "pets/#{@pet.id}"
   end
+  
 end
